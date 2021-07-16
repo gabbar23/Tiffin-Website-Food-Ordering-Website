@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto Condensed';
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Noto Sans TC';
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+h2{
+    font-family: 'Noto Sans TC';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Noto Sans TC';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+    opacity: .6;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+}
+
+hr {
+    border-style: solid;
+    border-color: #8D2828;
+    width: 80%;
+    opacity: .3;
+    margin: 100px auto;
+
+}
+
+#title {
+    background-color: #FFD523;
+    color: #ffffff;
+}
+
+.main-title:hover{
+    color:#8D2828 ;
+}
+
+.modified {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3% 10%;
+}
+
+
+
+/* navigation-bar */
+.navbar {
+    /* backdrop-filter: blur(10px); */
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 5rem;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.navbar-brand {
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+
+}
+
+.nav-item {
+    padding-right: 40px;
+    font-family: 'Noto Sans TC';
+}
+
+/* download-button */
+
+.buttons-download {
+    margin: 5% 3% 2% 0%;
+}
+
+.image-title {
+    width: 45%;
+    transform: rotate(25deg);
+    margin-left: 200px;
+
+}
+
+
+
+/* features */
+#features{
+    padding: 4% 8% 2% 8%;
+    color: #8D2828;
+    line-height: 1.5rem;
+}
+.features{
+    text-align: center;
+}
+
+.feature-icon{
+    font-size:4rem;
+    color: #8D2828;
+    opacity: .7;
+    margin-bottom: 1.5rem;
+}
+.feature-icon:hover{
+    opacity: 1;
+}
+
+
+/* pricing */
+
+#pricing{
+    
+    text-align: center;
+    padding:100px;
+    padding-top: 1px;
+    margin-top: 10px;
+    background-color:#ffffff ;
+    
+}
+
+.card-header{
+    font-family: 'Noto Sans TC';
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.card-header:hover{
+    background-color: #8D2828; 
+    color: #fff;
+}
+
+.card-block{
+    padding: 0 1% 0 1%;
+}
+
+.card{
+    height: 100%;
+}
+
+.list-group-item{
+    font-weight: bold;
+}
