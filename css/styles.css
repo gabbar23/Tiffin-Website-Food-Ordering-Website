@@ -202,6 +202,18 @@ hr {
 
 /* media_queries */
 
+@media (max-width:1300px) {
+    .image-title {
+        width: 17%;
+        transform: rotate(22deg);
+        margin-left: 200px;
+        position: absolute;
+    }
+
+    #title {}
+}
+
+
 @media (max-width:1000px) {
     .image-title {
         position: static;
