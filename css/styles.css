@@ -202,7 +202,7 @@ hr {
 
 /* media_queries */
 
-@media (max-width:1300px) {
+@media (max-width:1400px) {
     .image-title {
         width: 17%;
         transform: rotate(22deg);
@@ -210,7 +210,7 @@ hr {
         position: absolute;
     }
 
-    #title {}
+   
 }
 
 
